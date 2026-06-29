@@ -1,0 +1,62 @@
+---
+title: Linux Fundamental Part 1
+summary: >-
+  Sebelum mempelajari administrasi sistem, jaringan, maupun keamanan siber,
+  memahami cara berinteraksi dengan sistem operasi Linux melalui terminal
+  merupakan langkah awal yang penting. Terminal memungkinkan pengguna
+  menjalankan berbagai perintah secara efisien tanpa bergantung pada antarmuka
+  grafis (GUI). Pada artikel ini, kita akan mempelajari konsep dasar penggunaan
+  terminal Linux, mulai dari mengenali identitas sistem, mengetahui lokasi
+  direktori saat ini, berpindah direktori, melihat isi direktori, hingga membaca
+  isi sebuah file. Materi ini menjadi fondasi sebelum melanjutkan ke pengelolaan
+  file, pengguna, dan permission pada Linux.
+tag: Linux Fundamental
+publishedAt: '2026-05-20'
+image: /images/uploads/linux-logo-png-svg-design-for-t-shirts-1782638984104.jpg
+series: Belajar Linux
+---
+## Pendahuluan
+
+Sistem operasi Linux dikenal sebagai salah satu sistem operasi yang banyak digunakan pada server, layanan cloud, perangkat jaringan, hingga infrastruktur keamanan siber. Berbeda dengan sistem operasi desktop yang lebih mengandalkan Graphical User Interface (GUI), Linux banyak dikelola menggunakan **Command Line Interface (CLI)** atau terminal.
+
+Melalui terminal, pengguna dapat berinteraksi langsung dengan sistem operasi menggunakan berbagai perintah (command). Pendekatan ini tidak hanya lebih ringan dan cepat, tetapi juga memungkinkan administrator melakukan otomatisasi pekerjaan menggunakan shell script serta mengelola server dari jarak jauh melalui protokol seperti SSH.
+
+Bagi seseorang yang ingin berkarier sebagai **System Administrator**, **Network Administrator**, maupun **Cyber Security Engineer**, memahami command dasar Linux merupakan keterampilan yang wajib dimiliki. Hampir seluruh aktivitas administrasi sistem, mulai dari mengelola file, membuat akun pengguna, hingga melakukan konfigurasi layanan, dilakukan melalui terminal.
+
+Pada artikel pertama seri **Linux Fundamental** ini, kita akan mempelajari beberapa command dasar yang paling sering digunakan untuk mengenali sistem, berpindah direktori, melihat isi direktori, serta membaca isi file.
+
+## Pembahasan
+
+Pada bagian ini, kita akan mempelajari beberapa command dasar Linux yang paling sering digunakan. Setiap command memiliki fungsi yang berbeda, mulai dari mengenali sistem, berpindah direktori, hingga melihat isi file. Memahami fungsi masing-masing command akan memudahkan kita saat bekerja menggunakan terminal. Di bawah ini akan saya berikan contoh command dasar beserta penjelasannya.
+
+1\. whoami: menampilkan nama user yang sedang login pada terminal.
+
+2\. hostname: menampilkan hostname atau nama perangkat yang digunakan.
+
+3\. hostnamectl: menampilkan informasi sistem seperti hostname, sistem operasi, versi kernel, dan arsitektur perangkat.
+
+4\. pwd: menampilkan lokasi direktori yang sedang aktif.
+
+5\. cd: berpindah ke direktori lain.
+
+6\. cd ..: digunakan untuk ke direktori sebelumnya.
+
+7\. cd ~: digunakan untuk masuk ke home directory.
+
+8\. ls: digunakan untuk menampilkan daftar file dan direktori pada lokasi saat ini.
+
+9\. ls -l: menampilkan isi direktori beserta informasi detail, seperti permission, owner, group, ukuran file, dan waktu modifikasi.
+
+10.  ls -a: menampilkan semua file dan direktori, termasuk file tersembunyi (hidden file).
+
+11\. ls -la: menampilkan informasi detail seluruh file dan direktori, termasuk file tersembunyi.
+
+12\. ls -h: menampilkan ukuran file dalam format yang lebih mudah dibaca, seperti KB, MB, atau GB. Biasanya digunakan bersama opsi `-l`.
+
+13\. ls -R : menampilkan isi direktori beserta seluruh subdirektori secara rekursif.
+
+14\. cat: digunakan untuk menampilkan isi file teks langsung pada terminal
+
+## Kesimpulan
+
+Pada artikel ini, kita telah mempelajari beberapa command dasar Linux yang digunakan untuk mengenali identitas sistem, mengetahui lokasi direktori, berpindah direktori, melihat isi direktori, serta membaca isi file. Command-command tersebut merupakan dasar yang akan sering digunakan saat bekerja di terminal Linux. Setelah memahami navigasi dasar ini, langkah selanjutnya adalah mempelajari cara mengelola file dan direktori, seperti membuat, menyalin, memindahkan, dan menghapus file menggunakan command Linux.

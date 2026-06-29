@@ -1,0 +1,288 @@
+{
+  "person": {
+    "firstName": "Fajar",
+    "lastName": "S Huda",
+    "name": "Fajar S Huda",
+    "role": "Cybersecurity Student | Infrastructure Security",
+    "avatar": "/images/avatar/download-1782623338265.jpg",
+    "email": "fajarshuda@gmail.com",
+    "location": "Asia/Jakarta",
+    "languages": [
+      "Indonesian",
+      "English"
+    ],
+    "locale": "id"
+  },
+  "newsletter": {
+    "display": false,
+    "title": "Subscribe to {firstName}'s Newsletter",
+    "description": "Catatan dan tulisan seputar cybersecurity, networking, dan infrastruktur"
+  },
+  "social": [
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/fajar-s-huda",
+      "essential": true
+    },
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "link": "https://instagram.com/_jarsverbruggen",
+      "essential": true
+    },
+    {
+      "name": "Email",
+      "icon": "email",
+      "link": "mailto:{email}",
+      "essential": true
+    }
+  ],
+  "home": {
+    "image": "/images/uploads/download-1782623413668.jpg",
+    "label": "Home",
+    "headline": "Building Secure and Reliable Infrastructure",
+    "subline": "Saya adalah mahasiswa Rekayasa Keamanan Siber yang tertarik pada keamanan infrastruktur, jaringan komputer, administrasi server, serta keamanan sistem. Saat ini saya terus mengembangkan kemampuan di bidang cybersecurity, networking, Linux, dan teknologi infrastruktur untuk membangun sistem yang aman, stabil, dan andal. Selain itu, saya juga memiliki ketertarikan dalam mempelajari machine learning sebagai keterampilan pendukung untuk memahami penerapannya dalam analisis data dan keamanan siber.",
+    "featured": {
+      "display": true,
+      "label": "Latest Project",
+      "tag": "Heart Disease Prediction",
+      "href": "/work/heart-disease-prediction-using-machine-learning"
+    }
+  },
+  "about": {
+    "label": "About",
+    "tableOfContent": {
+      "display": true,
+      "subItems": false
+    },
+    "avatar": {
+      "display": true
+    },
+    "calendar": {
+      "display": false,
+      "link": "https://cal.com"
+    },
+    "intro": {
+      "display": true,
+      "title": "Introduction",
+      "description": "Halo! Saya adalah mahasiswa Program Studi D4 Rekayasa Keamanan Siber di Politeknik Negeri Cilacap yang memiliki minat besar pada keamanan infrastruktur, keamanan jaringan, administrasi server, serta keamanan sistem. Saya senang mempelajari bagaimana membangun, mengelola, dan mengamankan infrastruktur TI agar tetap stabil, efisien, dan terlindungi dari berbagai ancaman keamanan. Selain perkuliahan, saya juga aktif mengikuti berbagai bootcamp untuk memperluas pengetahuan di bidang data serta machine learning sebagai bekal tambahan. Saya percaya bahwa pembelajaran berkelanjutan, pengalaman praktik, dan rasa ingin tahu adalah fondasi penting untuk berkembang di dunia cybersecurity."
+    },
+    "work": {
+      "display": true,
+      "title": "Experience",
+      "experiences": [
+        {
+          "company": "DQLab",
+          "timeframe": "2025",
+          "role": "Fundamental Machine Learning Bootcamp",
+          "achievements": [
+            "Mempelajari konsep dasar machine learning.",
+            "Melakukan preprocessing data serta evaluasi model menggunakan Python."
+          ],
+          "images": []
+        },
+        {
+          "company": "DQLab",
+          "timeframe": "2025",
+          "role": "Machine Learning Bootcamp",
+          "achievements": [
+            "Mendalami penerapan machine learning pada studi kasus nyata.",
+            "Mengembangkan kemampuan analisis data dan implementasi algoritma machine learning."
+          ],
+          "images": []
+        },
+        {
+          "company": "DQLab",
+          "timeframe": "2025",
+          "role": "SQL & Data Analysis Bootcamp",
+          "achievements": [
+            "SQL Query, Data Analysis, dan Data Cleaning.",
+            "Exploratory Data Analysis (EDA) dan Data Visualization."
+          ],
+          "images": []
+        }
+      ]
+    },
+    "studies": {
+      "display": true,
+      "title": "Education",
+      "institutions": [
+        {
+          "name": "Politeknik Negeri Cilacap",
+          "description": "D4 Cybersecurity Engineering (Rekayasa Keamanan Siber), 2024 – Present. Mempelajari keamanan jaringan, administrasi server, keamanan sistem operasi, keamanan web, digital forensics, cloud computing, virtualisasi, penetration testing dasar, serta manajemen keamanan infrastruktur."
+        }
+      ]
+    },
+    "technical": {
+      "display": true,
+      "title": "Technical skills",
+      "skills": [
+        {
+          "title": "Cybersecurity",
+          "description": "Fokus pada keamanan infrastruktur, jaringan, sistem, dan operasi keamanan.",
+          "tags": [
+            {
+              "name": "Network Security"
+            },
+            {
+              "name": "Infrastructure Security"
+            },
+            {
+              "name": "Linux Administration"
+            },
+            {
+              "name": "Server Administration"
+            },
+            {
+              "name": "Web Security"
+            },
+            {
+              "name": "Digital Forensics"
+            },
+            {
+              "name": "SOC"
+            },
+            {
+              "name": "Penetration Testing (Basic)"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Artificial Intelligence & Data",
+          "description": "Penerapan machine learning dan analisis data sebagai kemampuan teknis tambahan.",
+          "tags": [
+            {
+              "name": "Machine Learning"
+            },
+            {
+              "name": "Data Analysis"
+            },
+            {
+              "name": "Data Preprocessing"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Networking",
+          "description": "Perancangan, konfigurasi, dan troubleshooting jaringan komputer.",
+          "tags": [
+            {
+              "name": "TCP/IP"
+            },
+            {
+              "name": "Routing & Switching"
+            },
+            {
+              "name": "MikroTik"
+            },
+            {
+              "name": "VLAN"
+            },
+            {
+              "name": "VPN"
+            },
+            {
+              "name": "Firewall"
+            },
+            {
+              "name": "Network Troubleshooting"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Programming",
+          "description": "Bahasa pemrograman dan scripting untuk otomasi dan analisis.",
+          "tags": [
+            {
+              "name": "Python"
+            },
+            {
+              "name": "SQL"
+            },
+            {
+              "name": "Bash"
+            }
+          ],
+          "images": []
+        },
+        {
+          "title": "Tools",
+          "description": "Perangkat yang digunakan untuk praktikum keamanan dan jaringan.",
+          "tags": [
+            {
+              "name": "Kali Linux"
+            },
+            {
+              "name": "VMware"
+            },
+            {
+              "name": "Cisco Packet Tracer"
+            },
+            {
+              "name": "GNS3"
+            },
+            {
+              "name": "WinBox"
+            },
+            {
+              "name": "Wireshark"
+            },
+            {
+              "name": "Git"
+            },
+            {
+              "name": "Visual Studio Code"
+            }
+          ],
+          "images": []
+        }
+      ]
+    }
+  },
+  "blog": {
+    "label": "Blog",
+    "title": "Tulisan seputar cybersecurity & infrastruktur"
+  },
+  "work": {
+    "label": "Work"
+  },
+  "gallery": {
+    "label": "Gallery",
+    "images": [
+      {
+        "src": "/images/gallery/horizontal-1.jpg",
+        "alt": "Praktikum Jaringan Komputer",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "/images/gallery/vertical-1.jpg",
+        "alt": "Konfigurasi Server Linux",
+        "orientation": "vertical"
+      },
+      {
+        "src": "/images/gallery/horizontal-2.jpg",
+        "alt": "Dokumentasi Bootcamp DQLab",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "/images/gallery/vertical-2.jpg",
+        "alt": "Sertifikat Pelatihan",
+        "orientation": "vertical"
+      },
+      {
+        "src": "/images/gallery/horizontal-3.jpg",
+        "alt": "Laboratorium Cybersecurity",
+        "orientation": "horizontal"
+      },
+      {
+        "src": "/images/gallery/vertical-3.jpg",
+        "alt": "Dokumentasi Seminar Teknologi",
+        "orientation": "vertical"
+      }
+    ]
+  }
+}

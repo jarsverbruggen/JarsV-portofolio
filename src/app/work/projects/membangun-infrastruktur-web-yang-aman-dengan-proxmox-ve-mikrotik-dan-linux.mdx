@@ -1,0 +1,89 @@
+---
+title: 'Membangun Infrastruktur Web yang Aman dengan Proxmox VE, MikroTik, dan Linux'
+publishedAt: '2025-01-01'
+summary: >-
+  Proyek ini berfokus pada pembangunan infrastruktur web server yang aman
+  menggunakan Proxmox VE sebagai platform virtualisasi, MikroTik sebagai gateway
+  jaringan, serta Linux Container (LXC) untuk memisahkan web server dan database
+  server. Selain menerapkan hardening pada level jaringan, server, dan aplikasi,
+  proyek ini juga melakukan pengujian keamanan menggunakan berbagai tools
+  penetration testing untuk mengevaluasi efektivitas mekanisme keamanan yang
+  telah diterapkan.
+images:
+  - /images/projects/screenshot-2026-06-28-124228-1782634720438.png
+  - /images/projects/image-1782670580381.jpg
+  - /images/projects/linux-logo-png-svg-design-for-t-shirts-1782670586159.jpg
+pinned: true
+---
+## Overview
+
+Pada proyek ini saya membangun sebuah infrastruktur web server yang aman di atas lingkungan virtualisasi Proxmox VE dengan menerapkan segmentasi layanan menggunakan Linux Container (LXC). Infrastruktur terdiri dari web server dan database server yang dikelola melalui router MikroTik sebagai gateway jaringan.
+
+Implementasi keamanan dilakukan pada berbagai lapisan, mulai dari firewall jaringan, hardening server Linux, pengaturan hak akses file, secure coding pada aplikasi PHP, hingga mekanisme perlindungan terhadap serangan seperti SQL Injection, Cross-Site Scripting (XSS), brute force, session hijacking, dan malicious file upload. Seluruh implementasi kemudian divalidasi melalui pengujian manual maupun automated penetration testing menggunakan berbagai security tools.
+
+## Tools & Environment
+
+### Infrastructure
+
+-   Proxmox VE
+-   MikroTik RouterOS
+-   Ubuntu Server (LXC Container)
+-   Apache Web Server
+-   MySQL Database
+-   UFW (Uncomplicated Firewall)
+-   Fail2Ban
+
+### Development
+
+-   PHP
+-   HTML
+-   CSS
+-   JavaScript
+-   PDO (Prepared Statement)
+
+### Security Testing
+
+-   Nmap
+-   Nikto
+-   WhatWeb
+-   Gobuster
+-   DIRB
+-   SQLMap
+-   XSStrike
+-   Wafw00f
+-   Kali Linux 
+
+## Focus Areas
+
+Selama proyek berlangsung, fokus implementasi meliputi:
+
+-   Virtualisasi server menggunakan Proxmox VE
+-   Segmentasi Web Server dan Database Server menggunakan LXC
+-   Konfigurasi firewall pada MikroTik dan Linux (UFW)
+-   Server hardening dan pengurangan attack surface
+-   Implementasi Fail2Ban untuk mitigasi brute force
+-   Secure Coding menggunakan PHP
+    -   Input validation
+    -   Output sanitization
+    -   Prepared Statement (PDO)
+    -   Password hashing (Bcrypt)
+    -   Session security
+    -   Secure file upload
+-   Pengelolaan permission file dan struktur direktori
+-   Vulnerability Assessment
+-   Penetration Testing terhadap infrastruktur dan aplikasi web
+
+## Outcome
+
+Melalui proyek ini berhasil dibangun sebuah lingkungan web server yang menerapkan prinsip **defense in depth**, yaitu perlindungan pada lapisan jaringan, sistem operasi, hingga aplikasi web.
+
+Hasil pengujian menunjukkan bahwa mekanisme keamanan yang diterapkan mampu:
+
+-   Menghambat aktivitas reconnaissance melalui firewall MikroTik.
+-   Mencegah serangan SQL Injection menggunakan Prepared Statement.
+-   Memitigasi Cross-Site Scripting (XSS) melalui validasi dan sanitasi input.
+-   Mengamankan autentikasi menggunakan password hashing Bcrypt.
+-   Mengurangi risiko brute force menggunakan Fail2Ban.
+-   Mendeteksi dan menolak upload file berbahaya.
+-   Membatasi akses database hanya dari web server.
+-   Mengidentifikasi beberapa security misconfiguration (misalnya directory listing dan security headers) sebagai rekomendasi perbaikan lanjutan melalui vulnerability assessment menggunakan Nikto, Gobuster, dan WhatWeb.
